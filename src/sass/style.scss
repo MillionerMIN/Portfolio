@@ -3,8 +3,7 @@
 
 @import 'base/variables';
 @import 'base/mixins';
-@import 'blocks/promo';
-@import 'blocks/title';
+
 
 
 * {
@@ -17,3 +16,11 @@
    width: 1140px;
    margin: 0 auto;
 }
+
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/buttons';
+@import 'blocks/sidepanel';
+@import 'blocks/summary';
+@import 'blocks/texts';
+@import 'blocks/menu';
