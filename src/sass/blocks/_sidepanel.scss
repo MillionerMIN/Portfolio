@@ -10,26 +10,26 @@
     z-index: 2;
     &__link {
         svg path {
-            fill: #ffffff;
+            fill: $main_color;
             &:hover {
-                fill: $main_color;
+                fill: #FF5F5F;
             }
         }
     }
     &__divider {
         height: 70px;
         width: 2px;
-        background-color: #ffffff;
+        background-color: $main_color;
     }
     &__text {
         width: 25px;
         height: 150px;
-        color: #ffffff;
+        color: $main_color;
         span {
             display: block;
             height: 25px;
             width: 150px;
             transform: rotate(-90deg) translate(-30%, -250%);
         }
-    }
+    }  
 }
